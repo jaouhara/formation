@@ -4,6 +4,7 @@ And another with 0 euros
 When I transfer 5 euros
 Then the first account should have 5 euros
 And the second one 5 euros
+And I should see as response SUCCESS
 
 
 Scenario: Move money without enough money
